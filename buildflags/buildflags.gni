@@ -36,4 +36,7 @@ declare_args() {
 
   # Enable Spellchecker support
   enable_builtin_spellchecker = true
+
+  # Enable WebXR support
+  enable_web_xr = true
 }

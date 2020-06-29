@@ -666,6 +666,12 @@ source_set("electron_lib") {
       "shell/browser/electron_pdf_web_contents_helper_client.h",
     ]
   }
+  if (enable_web_xr) {
+    deps += [
+      "//chrome/browser/vr:vr_common",
+      "//device/vr",
+    ]
+  }
 }
 
 electron_paks("packed_resources") {

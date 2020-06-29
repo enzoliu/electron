@@ -1,0 +1,27 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Enzo Liu <enzoliu@outlook.com>
+Date: Fri, 26 Jun 2020 15:27:45 +0800
+Subject: add xr module and compiled
+
+
+diff --git a/electron b/electron
+new file mode 160000
+index 0000000000000000000000000000000000000000..6b611440b279d5775a15b274884fd8cfca586409
+--- /dev/null
++++ b/electron
+@@ -0,0 +1 @@
++Subproject commit 6b611440b279d5775a15b274884fd8cfca586409
+diff --git a/third_party/electron_node b/third_party/electron_node
+new file mode 160000
+index 0000000000000000000000000000000000000000..3f1045e1cc456ebc0c4bf9c13e2e4337f1c0301e
+--- /dev/null
++++ b/third_party/electron_node
+@@ -0,0 +1 @@
++Subproject commit 3f1045e1cc456ebc0c4bf9c13e2e4337f1c0301e
+diff --git a/third_party/nan b/third_party/nan
+new file mode 160000
+index 0000000000000000000000000000000000000000..2c4ee8a32a299eada3cd6e468bbd0a473bfea96d
+--- /dev/null
++++ b/third_party/nan
+@@ -0,0 +1 @@
++Subproject commit 2c4ee8a32a299eada3cd6e468bbd0a473bfea96d
